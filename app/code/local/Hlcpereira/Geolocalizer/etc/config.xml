@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!--
+    Copyright (C) 2021 Henrique Lima da Costa Pereira
+    SPDX-License-Identifier: Apache-2.0
+-->
+<config>
+    <modules>
+        <Hlcpereira_Geolocalizer>
+            <version>1.0.0</version>
+        </Hlcpereira_Geolocalizer>
+    </modules>
+    <global>
+        <helpers>
+            <geolocalizer>
+                <class>Hlcpereira_Geolocalizer</class>
+            </geolocalizer>
+        </helpers>
+        <models>
+            <geolocalizer>
+                <class>Hlcpereira_Geolocalizer</class>
+            </geolocalizer>
+        </models>
+    </global>
+</config>
