@@ -7,5 +7,10 @@
 
 class Hlcpereira_Geolocalizer_Model_SdkConnection_Localization
 {
+    protected $geoIpSdk;
 
+    public function initLocation(){
+        $this->geoIpSdk = new \GeoIPSDK\Api();
+        return $this->geoIpSdk;
+    }
 }
