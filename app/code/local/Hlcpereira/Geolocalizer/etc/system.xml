@@ -35,8 +35,8 @@
                             <show_in_store>1</show_in_store>
                         </prefered_usage>
                     </fields>
-                </general>
+                </geolocalizer_settings>
             </groups>
-        </geolocalizer>
+        </web>
     </sections>
 </config>
