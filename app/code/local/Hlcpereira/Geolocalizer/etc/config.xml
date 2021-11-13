@@ -12,12 +12,12 @@
     <global>
         <helpers>
             <geolocalizer>
-                <class>Hlcpereira_Geolocalizer</class>
+                <class>Hlcpereira_Geolocalizer_Helper</class>
             </geolocalizer>
         </helpers>
         <models>
             <geolocalizer>
-                <class>Hlcpereira_Geolocalizer</class>
+                <class>Hlcpereira_Geolocalizer_Model</class>
             </geolocalizer>
         </models>
     </global>

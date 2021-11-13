@@ -5,17 +5,10 @@
 -->
 <config>
     <sections>
-        <geolocalizer translate="label" module="geolocalizer">
-            <label>Geolocalizer</label>
-            <tab>sales</tab>
-            <sort_order>320</sort_order>
-            <frontend_type>text</frontend_type>
-            <show_in_default>1</show_in_default>
-            <show_in_website>1</show_in_website>
-            <show_in_store>1</show_in_store>
+        <web translate="label" module="geolocalizer">
             <groups>
-                <general translate="label">
-                    <label>General</label>
+                <geolocalizer_settings translate="label">
+                    <label>Geolocalizer - Settings</label>
                     <frontend_type>text</frontend_type>
                     <sort_order>1</sort_order>
                     <show_in_default>1</show_in_default>

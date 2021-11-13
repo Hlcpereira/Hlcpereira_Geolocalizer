@@ -7,23 +7,16 @@
 
 class Hlcpereira_Geolocalizer_Model_Source_Config_Preferences
 {
-    protected $_array;
     public function toOptionArray(){
-        $dummyArray = [
+        return [
             [
                 'value' => 'dummy',
                 'label' => 'Dummy'
             ],
-        ]; #TO-DO: Nuke me
-        $options = Mage::getSingleton("geolocalizer/source_config_options")->getOptions();
-        foreach ($options as $value => $label){
-            $this->_array[] = [
-                'value' => $value,
-                'label' => $label
-            ];
-        }
-
-        //return $array;
-        return $dummyArray; #TO-DO: Nuke me
+            [
+                'value' => 'dummy2',
+                'label' => 'Dummy2'
+            ]
+        ];
     }    
 }

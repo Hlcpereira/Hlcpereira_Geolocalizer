@@ -7,5 +7,7 @@
 
 class Hlcpereira_Geolocalizer_Helper_Data extends Mage_Core_Helper_Abstract
 {
-
+    function validateResponse($response){
+        return True;
+    }
 }
